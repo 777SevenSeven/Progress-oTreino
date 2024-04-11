@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'CatComic';
+    src: url('CatComic.ttf') format('truetype');
+}
+
+
+/* Definindo as cores principais e complementares */
+:root {
+    --cor-principal-medio: #E5B117;
+    --cor-principal-claro: #FFCB33;
+    --cor-principal-escuro: #CC9800;
+    --cor-branca-medio: #E6EBF2;
+    --cor-branca-claro: #F7FBFF;
+    --cor-branca-escuro: #C3CDD9;
+    --cor-secundaria-medio: #592E73;
+    --cor-secundaria-claro: #72468C;
+    --cor-secundaria-escuro: #421B59;
+    --cor--preta-medio: #0F1A16;
+    --cor--preta-claro: #414D49;
+    --cor--preta-escuro: #080D0B;
+}
+
+body {
+    font-family: 'CatComic', sans-serif;
+    background-color: var(--cor-principal-medio);
+    color: var(--cor--preta-medio);
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cabeçalho {
+    background-color: var(--cor-secundaria-medio);
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo-principal {
+    margin: 0;
+    color: var(--cor-branca-medio);
+}
+
+.recentes,
+.proximaSemana {
+    margin-bottom: 80px;
+}
+
+.sub-titulo {
+    color: var(--cor--preta-escuro);
+}
+
+.lista1,
+.lista2 {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista1 {
+    background-color: var(--cor-principal-escuro);
+    padding: 10px;
+}
+
+.lista2 {
+    background-color: var(--cor-principal-escuro);
+    padding: 10px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    letter-spacing: 3px; 
+}
+
+.item1,
+.item3 {
+    color: var(--cor-branca-medio);
+}
+
+.item2,
+.item4 {
+    color: var(--cor-branca-medio);
+}
